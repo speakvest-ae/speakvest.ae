@@ -55,7 +55,9 @@
     el.innerHTML = '<div class="tool-grid"><div>' +
       '<div class="field"><span class="lbl">Buying</span>' + seg('type', [['ready', 'Ready / resale'], ['offplan', 'Off-plan (developer)']], 'ready') + '</div>' +
       range('tc-price', 'Property price', 300000, 20000000, 50000, 2000000) +
-      '<div class="field"><span class="lbl">Using a mortgage?</span>' + seg('mort', [['yes', 'Yes'], ['no', 'Cash']], 'yes') + '</div>' +
+      '<div data-off>' + range('tc-book', 'Booking / down payment', 5, 50, 1, 20, 'pct', 'The first instalment the developer asks for when you book. Usually 10–20%. Check the project\'s payment plan.') +
+      '<p class="note" style="margin:0 0 14px">Off-plan is usually paid on the developer\'s payment plan. A mortgage, if you need one, normally starts at handover.</p></div>' +
+      '<div class="field" data-mq><span class="lbl">Using a mortgage?</span>' + seg('mort', [['yes', 'Yes'], ['no', 'Cash']], 'yes') + '</div>' +
       '<div data-m>' + range('tc-ltv', 'Loan-to-value', 40, 80, 5, 80, 'pct', 'Banks set the maximum: often up to 80% for first-time resident buyers on lower-priced homes, less for non-residents and higher prices.') +
       range('tc-arr', 'Bank arrangement fee', 0, 1, 0.25, 1, 'pct') + '</div>' +
       '<div class="field" data-agent><span class="lbl">Buyer\'s agent (2% + VAT)</span>' + seg('agent', [['yes', 'Yes'], ['no', 'No']], 'yes') + '</div>' +
@@ -67,8 +69,10 @@
     wire(el, function () {
       var off = segVal(el, 'type') === 'offplan', p = v(el, 'tc-price'), mort = segVal(el, 'mort') === 'yes' && !off;
       el.querySelector('[data-m]').style.display = mort ? '' : 'none';
+      el.querySelector('[data-mq]').style.display = off ? 'none' : '';
+      el.querySelector('[data-off]').style.display = off ? '' : 'none';
       el.querySelector('[data-agent]').style.display = off ? 'none' : '';
-      var ltv = v(el, 'tc-ltv') / 100, loan = mort ? p * ltv : 0, R = [];
+      var ltv = v(el, 'tc-ltv') / 100, loan = mort ? p * ltv : 0, R = [], bookPct = v(el, 'tc-book'), book = p * bookPct / 100;
       R.push(['Dubai Land Department fee', '4% of the price', p * 0.04]);
       if (off) R.push(['Oqood registration & admin', 'DLD off-plan register, approx.', 1250]);
       else {
@@ -81,13 +85,14 @@
         R.push(['Property valuation', 'paid to the bank, approx.', 3000]);
         R.push(['Bank arrangement fee', v(el, 'tc-arr') + '% of the loan', loan * v(el, 'tc-arr') / 100]);
       }
-      var fees = R.reduce(function (s, r) { return s + r[2]; }, 0), down = off ? 0 : p - loan, cash = (off ? 0 : down) + fees;
-      el.querySelector('[data-rows]').innerHTML = R.map(function (r) { return row(r[0], SV.fmt(r[2]), r[1]); }).join('');
+      var fees = R.reduce(function (s, r) { return s + r[2]; }, 0), down = off ? book : p - loan, cash = down + fees;
+      el.querySelector('[data-rows]').innerHTML = R.map(function (r) { return row(r[0], SV.fmt(r[2]), r[1]); }).join('') +
+        (off ? row('Booking / down payment', SV.fmt(book), bookPct + '% of the price, paid to the escrow account') : '');
       el.querySelector('[data-fees]').textContent = A(fees);
-      el.querySelector('[data-pct]').textContent = '≈ ' + (fees / p * 100).toFixed(1) + '% of the price' + (off ? '. Your first instalment comes on top: see the payment plan tool.' : '');
-      el.querySelector('[data-cash]').textContent = off ? A(fees) + ' + booking' : A(cash);
-      el.querySelector('[data-bar]').innerHTML = off ? '<i style="width:100%;background:#C8242B"></i>' : '<i style="width:' + (down / cash * 100) + '%;background:#1C1714"></i><i style="width:' + (fees / cash * 100) + '%;background:#C8242B"></i>';
-      txt = (off ? 'Off-plan' : 'Ready') + ' purchase at ' + A(p) + (mort ? ' with ' + Math.round(ltv * 100) + '% mortgage' : '') + '\nFees: ' + A(fees) + '\nCash day one: ' + (off ? A(fees) + ' + booking' : A(cash));
+      el.querySelector('[data-pct]').textContent = '≈ ' + (fees / p * 100).toFixed(1) + '% of the price' + (off ? '. The remaining ' + A(p - book) + ' follows the payment plan: see the payment plan tool.' : '');
+      el.querySelector('[data-cash]').textContent = A(cash);
+      el.querySelector('[data-bar]').innerHTML = '<i style="width:' + (down / cash * 100) + '%;background:#1C1714"></i><i style="width:' + (fees / cash * 100) + '%;background:#C8242B"></i>';
+      txt = (off ? 'Off-plan' : 'Ready') + ' purchase at ' + A(p) + (off ? ', ' + bookPct + '% booking' : '') + (mort ? ' with ' + Math.round(ltv * 100) + '% mortgage' : '') + '\nFees: ' + A(fees) + '\nCash day one: ' + A(cash);
     });
     actions(el, 'True-cost calculator', function () { return txt; });
   } };
@@ -271,7 +276,13 @@
       var goal = ans[0], b = ans[1], min = { b1: 0, b2: 1e6, b3: 2e6, b4: 5e6 }[b] || 0;
       var P = { income: ['The Income Builder', 'Focus on ready or near-complete apartments in high-demand rental areas, where net yield after service charges is strongest.'], growth: ['The Early Mover', 'Off-plan launches with long payment plans in growing communities let you control more value with less cash upfront.'], visa: ['The Golden Visa Seeker', 'Target AED 2M+ property from established developers, and confirm visa eligibility before you book.'], home: ['The Future Resident', 'Choose community, schools and layout first; family villas and townhouses with handover in your timeframe.'] }[goal];
       if (goal === 'visa' && min < 2e6) min = 2e6;
-      el.innerHTML = '<div class="result"><span class="tool-tag">Your profile</span><h3 style="margin-top:12px">' + P[0] + '</h3><p>' + P[1] + '</p><div class="btns"><a class="btn btn-brand" href="projects.html' + (min ? '?min=' + min : '') + '">See matching projects →</a><button type="button" class="btn btn-line" data-restart>Start again</button></div></div>';
+      var tips = [
+        { ready: 'You want rent now: look at ready or near-complete units, and check the real service charge before you buy.', off: 'You can wait: off-plan lets you pay in stages. Check the escrow account and the developer\'s handover record first.', both: 'Open to both: compare a ready unit\'s net yield with an off-plan unit\'s payment plan before choosing.' }[ans[2]],
+        { cash: 'Paying cash: you avoid bank fees and can move fast on good launches.', mort: 'With a mortgage: get pre-approval first, and plan for about 7–8% in fees on top of your deposit.', plan: 'On a payment plan: make sure every instalment fits your cash flow until handover, plus the 4% DLD fee at booking.' }[ans[3]],
+        { short: 'Under 3 years: selling costs and possible developer resale rules matter, so check them before you book.', mid: '3–7 years: time to ride a full handover and some growth. Focus on established areas with steady demand.', long: '7+ years: put community, build quality and net yield first. That\'s what holds value.' }[ans[4]]
+      ].filter(Boolean);
+      el.innerHTML = '<div class="result"><span class="tool-tag">Your profile</span><h3 style="margin-top:12px">' + P[0] + '</h3><p>' + P[1] + '</p>' +
+        '<ul class="check-list" style="margin:0 0 18px">' + tips.map(function (t) { return '<li>' + t + '</li>'; }).join('') + '</ul><div class="btns"><a class="btn btn-brand" href="projects.html' + (min ? '?min=' + min : '') + '">See matching projects →</a><button type="button" class="btn btn-line" data-restart>Start again</button></div></div>';
       el.dataset.result = P[0] + ' · answers: ' + ans.join(', ');
     }
     el.addEventListener('click', function (e) {

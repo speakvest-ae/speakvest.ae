@@ -288,6 +288,7 @@ b.hl,strong.hl{color:var(--brand-dk);font-weight:700}
 .band .kicker{color:var(--cream)}
 .band .btn-line{border-color:#fff;color:#fff}.band .btn-line:hover{background:#fff;color:var(--brand-dk)}
 .band .check-list li::before{color:var(--cream)}
+.result .check-list li::before{color:var(--brand)}
 .band .form-card{border-color:var(--black)}
 .btn-black{background:var(--black)}
 .tool{border-color:var(--black)}
