@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Off-plan Projects in the UAE | Speakvest.ae</title>
+<meta name="description" content="The latest off-plan projects in Dubai, Abu Dhabi and Sharjah with starting prices, payment plans and handover dates, plus the checks to run before you pay.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Speakvest.ae">
+<meta property="og:title" content="Off-plan Projects in the UAE | Speakvest.ae">
+<meta property="og:description" content="The latest off-plan projects in Dubai, Abu Dhabi and Sharjah with starting prices, payment plans and handover dates, plus the checks to run before you pay.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-wa="general">
+<header id="site-header" class="site-header"></header>
+<main>
+
+<section class="page-hero"><div class="wrap">
+ <div class="crumb">// projects · off-plan · UAE</div>
+ <h1>Off-plan projects, <span class="hl">made clear.</span></h1>
+ <p>The latest UAE launches with the starting price, payment plan, handover date and the checks to run before you pay a dirham.</p>
+ <div class="statrow" id="stats"></div>
+</div></section>
+<section style="padding-top:20px"><div class="wrap">
+ <div class="filters" role="search">
+  <label class="sr" for="q">Search projects</label><input id="q" type="search" placeholder="Search project, developer or area">
+  <label class="sr" for="fe">Emirate</label><select id="fe"><option value="">All emirates</option></select>
+  <label class="sr" for="ft">Property type</label><select id="ft"><option value="">All types</option><option>Apartment</option><option>Townhouse</option><option>Villa</option><option>Penthouse</option></select>
+  <label class="sr" for="fp">Budget</label><select id="fp"><option value="">Any budget</option><option value="0-1000000">Under AED 1M</option><option value="1000000-2000000">AED 1M – 2M</option><option value="2000000-5000000">AED 2M – 5M</option><option value="5000000-999999999">AED 5M+</option><option value="2000000-999999999">Golden Visa (AED 2M+)</option></select>
+  <label class="sr" for="fs">Sort</label><select id="fs"><option value="">Newest first</option><option value="pa">Price: low to high</option><option value="pd">Price: high to low</option><option value="h">Handover: soonest</option></select>
+ </div>
+ <p class="note" id="count"></p>
+ <div class="grid g3" id="list"></div>
+</div></section>
+<section class="band" id="project-check"><div class="wrap"><div class="grid g2" style="align-items:center;gap:48px">
+ <div><div class="kicker">Free project check</div><h2>Send us the project. <span class="hl">We'll break it down.</span></h2>
+ <p>The real cost, the payment plan, the escrow and developer checks, and what it could earn you. Before you pay anything.</p>
+ <ul class="check-list"><li>True cost and cash needed</li><li>Escrow, developer and broker checks</li><li>Net yield with real service charges</li><li>A shortlist that fits your goal</li></ul>
+ <a class="btn btn-wa" data-wa-link="general" href="#"><svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.4.7 4.7 1.9 6.7L3 29l6.9-2.1c1.9 1 4 1.6 6.1 1.6 7 0 12.7-5.7 12.7-12.7S23 3 16 3zm7.4 17.9c-.3.9-1.8 1.7-2.5 1.8-.7.1-1.5.2-4.6-1-3.9-1.6-6.4-5.5-6.6-5.8-.2-.3-1.6-2.1-1.6-4s1-2.8 1.3-3.2c.3-.4.7-.5 1-.5h.7c.2 0 .5 0 .8.6.3.7 1 2.4 1.1 2.6.1.2.1.4 0 .6-.1.2-.2.4-.4.6l-.6.7c-.2.2-.4.4-.2.8.2.4 1 1.6 2.1 2.6 1.4 1.3 2.6 1.7 3 1.9.4.2.6.2.8-.1.2-.3 1-1.1 1.2-1.5.3-.4.5-.3.9-.2.4.1 2.3 1.1 2.7 1.3.4.2.7.3.8.5.1.1.1.9-.2 1.8z"/></svg> Prefer WhatsApp? Chat now</a></div>
+ <div data-lead-form="project-check" data-title="Check my project" data-button="Check my project"></div>
+</div></div></section>
+</main>
+<footer id="site-footer" class="site-footer"></footer>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/tools.js"></script>
+<script>
+SV.ready.then(function(){ SV.projects().then(function(all){
+  var $=function(i){return document.getElementById(i)}, qs=new URLSearchParams(location.search);
+  var mn=qs.get('min')||(location.hash==='#gv'?'2000000':''); if(mn) $('fp').value = mn+'-999999999';
+  var ems=[]; all.forEach(function(p){ if(ems.indexOf(p.emirate)<0) ems.push(p.emirate); }); ems.forEach(function(e){ $('fe').insertAdjacentHTML('beforeend','<option>'+SV.esc(e)+'</option>'); });
+  var prices=all.map(function(p){return p.priceFrom}).filter(Boolean), devs={}; all.forEach(function(p){devs[p.developer]=1});
+  $('stats').innerHTML='<div class="card stat"><b>'+all.length+'</b><span class="note">projects listed</span></div><div class="card stat"><b>'+SV.short(Math.min.apply(0,prices))+'</b><span class="note">lowest starting price</span></div><div class="card stat"><b>'+Object.keys(devs).length+'</b><span class="note">developers</span></div><div class="card stat dark"><b style="color:#FF7A70">AED 2M+</b><span class="note" style="color:#ccc">Golden Visa filter</span></div>';
+  var hv=function(h){var m=String(h||'').match(/(Q(\d)|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)?\s*(\d{4})/);return m?(+m[3])*10+(m[2]?+m[2]:5):99999;};
+  function draw(){
+    var q=$('q').value.toLowerCase(), e=$('fe').value, t=$('ft').value, pr=$('fp').value.split('-'), s=$('fs').value;
+    var l=all.filter(function(p){
+      if(q && (p.name+' '+p.developer+' '+p.area).toLowerCase().indexOf(q)<0) return false;
+      if(e && p.emirate!==e) return false; if(t && p.types.indexOf(t)<0) return false;
+      if(pr.length===2 && pr[0]!==''){ if(!p.priceFrom || p.priceFrom<+pr[0] || p.priceFrom>=+pr[1]) return false; }
+      return true; });
+    if(s==='pa') l.sort(function(a,b){return (a.priceFrom||9e9)-(b.priceFrom||9e9)});
+    if(s==='pd') l.sort(function(a,b){return (b.priceFrom||0)-(a.priceFrom||0)});
+    if(s==='h') l.sort(function(a,b){return hv(a.handover)-hv(b.handover)});
+    $('count').textContent = l.length+' project'+(l.length===1?'':'s');
+    $('list').innerHTML = l.length? l.map(SV.projectCard).join('') : '<div class="empty card">No projects match. Try a wider budget, or <a href="#project-check">ask us</a>.</div>';
+  }
+  ['q','fe','ft','fp','fs'].forEach(function(i){ $(i).addEventListener('input',draw); }); draw();
+});});
+</script>
+</body>
+</html>

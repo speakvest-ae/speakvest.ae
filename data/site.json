@@ -1,0 +1,57 @@
+{
+  "siteName": "Speakvest.ae",
+  "tagline": "Not just property. A smarter perspective.",
+  "bio": "Your inside look at the UAE real estate market.",
+
+  "formEndpoint": "",
+  "formEndpointNote": "Paste your Google Apps Script web app URL above (ends in /exec). Later you can swap it for your CRM's webhook URL. Leave empty to test: forms still show the thank-you message.",
+
+  "whatsapp": {
+    "number": "971543738134",
+    "general": "Hi Speakvest, I'd like to know more about investing in UAE property. (Ref: SV-WEB)",
+    "project": "Hi Speakvest, please send me the price list, floor plans and payment plan for {project}. (Ref: SV-{code})",
+    "tool": "Hi Speakvest, I used your {tool} and would like a second opinion on my numbers:\n{result}",
+    "guide": "Hi Speakvest, I downloaded the {guide} guide and have a question.",
+    "afterForm": "Hi Speakvest, I'm {name}. I just sent an enquiry on your website{projectPart}. Budget: {budget}. Timeline: {timeline}.",
+    "goldenVisa": "Hi Speakvest, I'd like help finding Golden Visa eligible property (AED 2M+). (Ref: SV-GV)"
+  },
+
+  "nav": [
+    { "label": "Off-plan", "href": "index.html" },
+    { "label": "Projects", "href": "projects.html" },
+    { "label": "Tools", "href": "tools.html" },
+    { "label": "Golden Visa", "href": "golden-visa.html" },
+    { "label": "Free guides", "href": "guides.html" },
+    { "label": "FAQ", "href": "faq.html" }
+  ],
+  "navButton": { "label": "Free project check", "href": "index.html#project-check" },
+
+  "social": [
+    { "label": "Instagram", "href": "https://instagram.com/" },
+    { "label": "YouTube", "href": "https://youtube.com/" },
+    { "label": "LinkedIn", "href": "https://linkedin.com/" }
+  ],
+
+  "footerColumns": [
+    { "title": "Explore", "links": [
+      { "label": "Off-plan, explained", "href": "index.html#escrow" },
+      { "label": "Projects", "href": "projects.html" },
+      { "label": "Golden Visa", "href": "golden-visa.html" },
+      { "label": "Free guides", "href": "guides.html" },
+      { "label": "FAQ & glossary", "href": "faq.html" }
+    ]},
+    { "title": "Tools", "links": [
+      { "label": "True-cost calculator", "href": "tools.html#true-cost" },
+      { "label": "Payment plans", "href": "tools.html#payment-plan" },
+      { "label": "Rental yield", "href": "tools.html#rental-yield" },
+      { "label": "Mortgage", "href": "tools.html#mortgage" },
+      { "label": "All tools", "href": "tools.html" }
+    ]}
+  ],
+
+  "disclaimer": "Information on this website is general and educational. It is not legal, tax or financial advice, and nothing here is an offer or a promise of returns. Fees, laws and visa rules change, so confirm the current position with the Dubai Land Department, RERA, ICP/GDRFA, your bank or a UAE-qualified adviser before you commit. Figures are rounded examples. Project prices, plans and availability come from developer materials and change often.",
+
+  "budgets": ["Under AED 1M", "AED 1M – 2M", "AED 2M – 5M", "AED 5M+"],
+  "timelines": ["In the next 3 months", "3 – 6 months", "6 – 12 months", "Just researching"],
+  "countryCodes": ["+971", "+966", "+974", "+965", "+973", "+968", "+44", "+91", "+92", "+7", "+1", "+49", "+33", "+86", "+20", "+63"]
+}

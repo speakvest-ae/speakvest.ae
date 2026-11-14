@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "buying-costs",
+    "code": "COSTS",
+    "title": "The UAE Buying Cost Checklist",
+    "kicker": "Buyer's guide · 2026",
+    "cover": "The real cost of buying in Dubai",
+    "description": "Every fee from offer to keys, what you pay every year after, and a worksheet for your own numbers.",
+    "pages": "8 sections",
+    "url": "guide-buying-costs.html",
+    "show": true
+  },
+  {
+    "slug": "off-plan-safety",
+    "code": "SAFE",
+    "title": "Off-Plan Safety Checklist",
+    "kicker": "Investor's guide · 2026",
+    "cover": "Is your off-plan money safe?",
+    "description": "How escrow protects you, what happens if a project stalls, and the 10 checks before you pay.",
+    "pages": "6 sections",
+    "url": "guide-off-plan-safety.html",
+    "show": true
+  },
+  {
+    "slug": "golden-visa",
+    "code": "VISA",
+    "title": "Golden Visa Through Property",
+    "kicker": "Residency guide · 2026",
+    "cover": "Your property, your 10-year visa",
+    "description": "Who qualifies, how off-plan and mortgaged homes count, the documents and the steps.",
+    "pages": "5 sections",
+    "url": "golden-visa.html",
+    "show": true
+  }
+]

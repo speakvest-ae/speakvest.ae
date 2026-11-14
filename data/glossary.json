@@ -1,0 +1,92 @@
+[
+  {
+    "term": "DLD",
+    "tag": "regulator",
+    "text": "Dubai Land Department: the government body that registers property, ownership and transactions in Dubai and collects the transfer fee."
+  },
+  {
+    "term": "RERA",
+    "tag": "regulator",
+    "text": "Real Estate Regulatory Agency, part of DLD. It regulates developers, brokers, escrow accounts and off-plan projects."
+  },
+  {
+    "term": "ADREC",
+    "tag": "regulator",
+    "text": "Abu Dhabi Real Estate Centre: registers and regulates property in Abu Dhabi."
+  },
+  {
+    "term": "Escrow account",
+    "tag": "off-plan",
+    "text": "A bank account for one project only, where buyers' off-plan payments are held and released to the developer as the building rises."
+  },
+  {
+    "term": "Oqood",
+    "tag": "off-plan",
+    "text": "DLD's interim register for off-plan sales. Your purchase is recorded here before the building is complete."
+  },
+  {
+    "term": "SPA",
+    "tag": "contract",
+    "text": "Sale and Purchase Agreement: the main contract with the developer or seller, covering price, plan and handover terms."
+  },
+  {
+    "term": "Title deed",
+    "tag": "ownership",
+    "text": "The official record of ownership issued once the property is transferred to you."
+  },
+  {
+    "term": "Transfer fee",
+    "tag": "cost",
+    "text": "DLD's fee on a purchase in Dubai: 4% of the price, paid by the buyer by market convention."
+  },
+  {
+    "term": "Handover",
+    "tag": "off-plan",
+    "text": "When the developer completes the building and hands over the keys. A large instalment is often due at this point."
+  },
+  {
+    "term": "Post-handover plan",
+    "tag": "off-plan",
+    "text": "A payment plan where part of the price is paid in instalments after you receive the keys."
+  },
+  {
+    "term": "Service charge",
+    "tag": "cost",
+    "text": "The yearly fee for maintaining the building and community, charged per square foot of your unit."
+  },
+  {
+    "term": "Form F",
+    "tag": "contract",
+    "text": "The standard resale agreement (MOU) between buyer and seller in Dubai, setting price, deposit and who pays which fees."
+  },
+  {
+    "term": "NOC",
+    "tag": "resale",
+    "text": "No-objection certificate from the developer, needed to transfer a resale or off-plan unit."
+  },
+  {
+    "term": "BRN",
+    "tag": "broker",
+    "text": "Broker Registration Number. Every licensed Dubai broker has one; check it before you deal with them."
+  },
+  {
+    "term": "Freehold",
+    "tag": "ownership",
+    "text": "Full ownership of the property and land. Foreigners can buy freehold in designated areas."
+  },
+  {
+    "term": "Snagging",
+    "tag": "handover",
+    "text": "Inspecting a new unit for defects before or at handover so the developer fixes them."
+  },
+  {
+    "term": "Dubai REST",
+    "tag": "tool",
+    "text": "DLD's official real-estate app: look up projects, developers, brokers and escrow details."
+  },
+  {
+    "term": "Net yield",
+    "tag": "returns",
+    "text": "Rent left after service charges, empty weeks, management and maintenance, as a percentage of the price."
+  }
+]

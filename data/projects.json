@@ -1,0 +1,637 @@
+[
+  {
+    "slug": "bay-estate",
+    "name": "Bay Estate",
+    "developer": "Nakheel",
+    "area": "Dubai Islands",
+    "emirate": "Dubai",
+    "types": "Townhouse, Villa",
+    "units": "3–4 BR townhouses and villas, plus villa plots",
+    "priceFrom": null,
+    "handover": "Jan 2031",
+    "paymentPlan": "60/40 (20% down Oct 2026, 40% on handover, est. Jan 2031)",
+    "description": "Nakheel's off-plan community on Dubai Islands of townhouses, villas and villa plots arranged around two swimmable lagoons, a marina and a beach, across three collections: Cala, Verda and Agora.",
+    "amenities": [
+      "Beach club with gym, pool and dining",
+      "Two pool clubhouses",
+      "Lagoon yoga area",
+      "Sports courts"
+    ],
+    "image": "https://media.springfieldproperties.ae/bay_estate_hero_e6d94b7f59.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/bay_estate_lagoons_269825629d.webp",
+      "https://media.springfieldproperties.ae/bay_estate_beach_club_c3355af2a7.webp",
+      "https://media.springfieldproperties.ae/bay_estate_marina_212e74d073.webp"
+    ],
+    "featured": true,
+    "show": true
+  },
+  {
+    "slug": "wadeem-gardens",
+    "name": "Wadeem Gardens",
+    "developer": "Modon",
+    "area": "Hudayriyat Island",
+    "emirate": "Abu Dhabi",
+    "types": "Villa",
+    "units": "4–6 BR villas",
+    "priceFrom": 8700000,
+    "handover": "Q2 2031",
+    "paymentPlan": "25/75 (5% booking; balance on handover, Q2 2031)",
+    "description": "Modon's off-plan villa community on Hudayriyat Island, Abu Dhabi, with 4 to 6 bedroom homes in Arabian or Modern styles, within an island masterplan featuring two 18-hole golf courses and long beaches.",
+    "amenities": [],
+    "image": "https://media.springfieldproperties.ae/wadeem_gardens_hero_5f6d714600.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/wadeem_gardens_pool_07cf4c4408.webp",
+      "https://media.springfieldproperties.ae/wadeem_gardens_promenade_3df9660c8e.webp",
+      "https://media.springfieldproperties.ae/wadeem_gardens_terrace_34ec615949.webp"
+    ],
+    "featured": true,
+    "show": true
+  },
+  {
+    "slug": "valia-at-dubai-creek-harbour",
+    "name": "Valia at Dubai Creek Harbour",
+    "developer": "Emaar",
+    "area": "Dubai Creek Harbour",
+    "emirate": "Dubai",
+    "types": "Apartment",
+    "units": "1–4 BR apartments",
+    "priceFrom": 2060000,
+    "handover": "Q4 2030",
+    "paymentPlan": "80/20 (10% booking, 7 x 10% during construction, 20% on handover Q4 2030)",
+    "description": "An Emaar high-rise above a mixed-use podium in Dubai Creek Harbour, with balconies in every unit, close to Creek Marina and Ras Al Khor sanctuary; handover expected Q4 2030.",
+    "amenities": [
+      "Temperature-controlled swimming pool",
+      "Padel court",
+      "Gym",
+      "Yoga deck"
+    ],
+    "image": "https://media.springfieldproperties.ae/valia_hero_1_e457abf2cd.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/valia_01_towers_aef25a2496.webp",
+      "https://media.springfieldproperties.ae/valia_05_pool_deck_dc731cefd4.webp",
+      "https://media.springfieldproperties.ae/valia_14_living_room_496d5c47ff.webp"
+    ],
+    "featured": true,
+    "show": true
+  },
+  {
+    "slug": "linar-at-al-mamzar",
+    "name": "Linar at Al Mamzar",
+    "developer": "Alef Group",
+    "area": "Al Mamzar",
+    "emirate": "Sharjah",
+    "types": "Apartment, Penthouse",
+    "units": "1–3 BR apartments and 4 BR penthouses",
+    "priceFrom": 849000,
+    "handover": "Q2 2031",
+    "paymentPlan": "30/70 (10% down; handover Q2 2031)",
+    "description": "Alef Group's six-tower development on the eastern edge of Al Mamzar beach, Sharjah, with Gulf-facing units, a ground-floor retail and co-working plaza, and a level-six residents' recreation deck.",
+    "amenities": [
+      "Lap pool",
+      "Padel court",
+      "Co-working space",
+      "Wellness centre"
+    ],
+    "image": "https://media.springfieldproperties.ae/linar_hero_4269e5f079.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/linar_02_waterfront_facade_7357c1d400.webp",
+      "https://media.springfieldproperties.ae/linar_04_pool_deck_dusk_dabc44ba91.webp",
+      "https://media.springfieldproperties.ae/linar_07_plaza_water_features_9b80441795.webp"
+    ],
+    "featured": true,
+    "show": true
+  },
+  {
+    "slug": "golf-trails-at-emaar-south",
+    "name": "Golf Trails at Emaar South",
+    "developer": "Emaar",
+    "area": "Emaar South",
+    "emirate": "Dubai",
+    "types": "Apartment, Townhouse",
+    "units": "1–3 BR apartments and 3 BR townhouses",
+    "priceFrom": 1250000,
+    "handover": "Q4 2030",
+    "paymentPlan": "80/20 (10% booking, 7 x 10% during construction, 20% on handover Q4 2030)",
+    "description": "Emaar's collection of apartments and townhouses beside the championship golf course at Emaar South, Dubai South, with podium amenities and quick access to Al Maktoum Airport and Expo City.",
+    "amenities": [
+      "18-hole golf course",
+      "Infinity pool",
+      "Indoor and outdoor gym",
+      "Padel court"
+    ],
+    "image": "https://media.springfieldproperties.ae/golf_trails_emaar_south_hero_fd030ae128.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/golf_trails_01_aerial_golf_course_a65f59e887.webp",
+      "https://media.springfieldproperties.ae/golf_trails_03_pool_at_dusk_05be7c9b95.webp",
+      "https://media.springfieldproperties.ae/golf_trails_15_living_room_392888cd49.webp"
+    ],
+    "featured": true,
+    "show": true
+  },
+  {
+    "slug": "inara-residence",
+    "name": "Inara Residence",
+    "developer": "Imtiaz Developments",
+    "area": "Dubai South",
+    "emirate": "Dubai",
+    "types": "Apartment",
+    "units": "Studio–2 BR apartments (fully furnished)",
+    "priceFrom": 673000,
+    "handover": "Q1 2028",
+    "paymentPlan": "60/40 (20% booking, 40% during construction, 40% on handover Q1 2028)",
+    "description": "Imtiaz Developments' 10-storey building in Dubai South with 169 furnished homes and one retail unit, designed around wellness-focused, resort-style shared spaces near Al Maktoum Airport and Expo City.",
+    "amenities": [
+      "Rooftop open-air cinema",
+      "Adult pool",
+      "Indoor gym",
+      "Yoga deck"
+    ],
+    "image": "https://media.springfieldproperties.ae/Inara_Residence_by_Imtiaz_046_f541e1cd6f.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Inara_Residence_by_Imtiaz_039_9131bf8296.webp",
+      "https://media.springfieldproperties.ae/Inara_Residence_by_Imtiaz_007_c14b42bd75.webp",
+      "https://media.springfieldproperties.ae/Inara_Residence_by_Imtiaz_043_8348588691.webp"
+    ],
+    "featured": true,
+    "show": true
+  },
+  {
+    "slug": "greenz-by-danube",
+    "name": "Greenz by Danube",
+    "developer": "Danube Properties",
+    "area": "Academic City",
+    "emirate": "Dubai",
+    "types": "Townhouse, Villa",
+    "units": "3–5 BR townhouses and semi-detached/twin villas",
+    "priceFrom": 3500000,
+    "handover": "Q4 2029",
+    "paymentPlan": "70/30 (70% during construction, 30% on completion; handover Q4 2029)",
+    "description": "Danube Properties' first townhouse community, in Academic City, Dubai: about 700 furnished townhouses and villas on a 4.9 million sq ft site with a large lifestyle zone and over 30,000 trees.",
+    "amenities": [
+      "Dancing fountain",
+      "3.75 km jogging track",
+      "20,000 sq ft gym with outdoor fitness",
+      "10+ sports courts"
+    ],
+    "image": "https://media.springfieldproperties.ae/Greenz_by_Danube_5_0dd427d8a9.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Greenz_by_Danube_4_5f4d12f70d.webp",
+      "https://media.springfieldproperties.ae/Greenz_by_Danube_5_0dd427d8a9.webp",
+      "https://media.springfieldproperties.ae/Greenz_by_Danube_6_eb0bebb052.webp"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "the-pinnacle-at-sobha-central",
+    "name": "The Pinnacle at Sobha Central",
+    "developer": "Sobha Realty",
+    "area": "Sheikh Zayed Road",
+    "emirate": "Dubai",
+    "types": "Apartment",
+    "units": "1–2 BR apartments (semi-furnished)",
+    "priceFrom": 1700000,
+    "handover": "Q4 2030",
+    "paymentPlan": "60/40 (20% booking, 40% during construction, 40% on handover Q4 2030)",
+    "description": "A G+107 residential tower by Sobha Realty in Sobha Central on Sheikh Zayed Road, with floor-to-ceiling glazing and views toward Downtown, DIFC and Dubai Marina; handover planned for Q4 2030.",
+    "amenities": [
+      "Lap pool",
+      "Outdoor cinema lawn",
+      "Climbing wall",
+      "Dog park"
+    ],
+    "image": "https://media.springfieldproperties.ae/The_Pinnacle_at_Sobha_Central_029_abdc7c1597.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/The_Pinnacle_at_Sobha_Central_029_abdc7c1597.webp",
+      "https://media.springfieldproperties.ae/The_Pinnacle_at_Sobha_Central_039_02d9aea56d.webp",
+      "https://media.springfieldproperties.ae/The_Pinnacle_at_Sobha_Central_045_b59196a831.webp"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "solanki-one",
+    "name": "Solanki One",
+    "developer": "Solanki Realty",
+    "area": "Dubailand",
+    "emirate": "Dubai",
+    "types": "Apartment",
+    "units": "Studio–3 BR apartments",
+    "priceFrom": 543000,
+    "handover": "Q2 2028",
+    "paymentPlan": "75/25 (10% booking, 64% during construction, 1% on handover, 25% over 2 years post-handover; handover Q2 2028)",
+    "description": "A 12-storey apartment building by Solanki Realty in Dubailand, offering studios to 3-bedroom homes, some with private pools or large balconies, about 20 minutes from Downtown Dubai and DXB.",
+    "amenities": [
+      "Rooftop pool",
+      "Plunge pools",
+      "Gym",
+      "Outdoor cinema"
+    ],
+    "image": "https://media.springfieldproperties.ae/Solanki_One_at_Dubailand_by_Solanki_Realty_014_a48ad1d201.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Solanki_One_at_Dubailand_by_Solanki_Realty_014_a48ad1d201.webp",
+      "https://media.springfieldproperties.ae/Solanki_One_at_Dubailand_by_Solanki_Realty_007_2872e178fa.webp",
+      "https://media.springfieldproperties.ae/Solanki_One_at_Dubailand_by_Solanki_Realty_009_cadc06b1db.webp"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "barari-palace",
+    "name": "Barari Palace",
+    "developer": "Ary Maz Developments",
+    "area": "Majan",
+    "emirate": "Dubai",
+    "types": "Apartment, Villa",
+    "units": "Studio–2 BR apartments and 3 BR duplex sky villas",
+    "priceFrom": 725000,
+    "handover": "Q4 2028",
+    "paymentPlan": "60/40 (15% booking; balance over 40 months post-handover; handover Q4 2028)",
+    "description": "A 221-unit residential building by ARY & MAZ Developments in Majan (Wadi Al Safa 3), bordering Al Barari's greenery, with wellness-led facilities and handover expected in Q4 2028.",
+    "amenities": [
+      "Beach-style swimming pool",
+      "Sauna and steam rooms",
+      "Rooftop lounge",
+      "40+ EV charging points"
+    ],
+    "image": "https://media.springfieldproperties.ae/Barari_Palace_at_Majan_010_fc484e1628.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Barari_Palace_at_Majan_010_fc484e1628.webp",
+      "https://media.springfieldproperties.ae/Barari_Palace_at_Majan_009_6d441b4a79.webp",
+      "https://media.springfieldproperties.ae/Barari_Palace_at_Majan_035_9d51ff6ee2.webp"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "binghatti-haven",
+    "name": "Binghatti Haven",
+    "developer": "Binghatti",
+    "area": "Dubai Sports City",
+    "emirate": "Dubai",
+    "types": "Apartment",
+    "units": "Studio–3 BR apartments",
+    "priceFrom": 750000,
+    "handover": "Q1 2026",
+    "paymentPlan": "70/30 (20% booking, 50% during construction, 30% on handover Q1 2026)",
+    "description": "A Binghatti high-rise in Dubai Sports City with 501 studio to 3-bedroom apartments over 26 residential floors above a podium, delivered unfurnished.",
+    "amenities": [
+      "Kids aqua pool",
+      "Green maze",
+      "Padel court",
+      "Basketball court"
+    ],
+    "image": "https://media.springfieldproperties.ae/Binghatti_Haven_Exterior_01_049d2ea0eb.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Binghatti_Haven_Exterior_01_049d2ea0eb.webp",
+      "https://media.springfieldproperties.ae/Binghatti_Haven_Exterior_02_ee7344f197.webp",
+      "https://media.springfieldproperties.ae/Binghatti_Haven_Lobby_05_b825f15c4e.webp"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "palm-jebel-ali",
+    "name": "Palm Jebel Ali",
+    "developer": "Nakheel",
+    "area": "Palm Jebel Ali",
+    "emirate": "Dubai",
+    "types": "Villa",
+    "units": "5–7 BR villas",
+    "priceFrom": 25200000,
+    "handover": "Q4 2029",
+    "paymentPlan": "80/20 (20% booking, 60% over 8 instalments, 20% on handover Q4 2029)",
+    "description": "Nakheel's launch of 131 Beach and Coral collection villas on the Palm Jebel Ali fronds, featuring large plots, private pools, ocean-facing terraces and direct beach access.",
+    "amenities": [
+      "Private beach",
+      "Private pool",
+      "Rooftop lounge",
+      "Beach clubs"
+    ],
+    "image": "https://media.springfieldproperties.ae/Exclusive_Beach_Side_01_at_Daytime_at_The_Palm_Jebel_Ali_d55899451a.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Palm_Jebel_Ali_Aerial_View_01_7f5482e462.webp",
+      "https://media.springfieldproperties.ae/The_Fronds_Aerial_Views_02_at_The_Palm_Jebel_Ali_20acc84d43.webp",
+      "https://media.springfieldproperties.ae/Beach_Side_01_of_Cyan_Sky_Villa_at_The_Palm_Jebel_Ali_fef82f1b3e.webp"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "gemz-by-danube",
+    "name": "Gemz by Danube",
+    "developer": "Danube Properties",
+    "area": "Al Furjan",
+    "emirate": "Dubai",
+    "types": "Apartment",
+    "units": "Studio–3 BR apartments",
+    "priceFrom": 550000,
+    "handover": "Q1 2025",
+    "paymentPlan": "60/40 (1% booking, 49% during construction, 10% on handover, 40% post-handover; handover Q1 2025)",
+    "description": "Danube Properties' pyramid-shaped 16-storey tower in Al Furjan with 270 apartments, some featuring private balcony pools; the project was completed in March 2025.",
+    "amenities": [
+      "Swimming pool",
+      "Outdoor cinema",
+      "Cricket pitch",
+      "Gym"
+    ],
+    "image": "https://media.springfieldproperties.ae/Gemz_by_Danube_Exterior_01_2df3ba21be.jpg",
+    "gallery": [],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "skyz-by-danube",
+    "name": "Skyz by Danube",
+    "developer": "Danube Properties",
+    "area": "Arjan",
+    "emirate": "Dubai",
+    "types": "Apartment",
+    "units": "Studio–2 BR apartments",
+    "priceFrom": 399000,
+    "handover": "Q2 2025",
+    "paymentPlan": "42/58 (10% down, 32% during construction, 10% on handover, 48% post-handover at 1% monthly; handover Q2 2025)",
+    "description": "A 41-storey Danube Properties tower in Arjan with 808 homes, featuring sky bridges, external gardens and viewing decks overlooking Dubai Miracle Garden.",
+    "amenities": [
+      "Infinity pool",
+      "Sky jogging track",
+      "Padel tennis",
+      "Viewing deck"
+    ],
+    "image": "https://media.springfieldproperties.ae/Skyz_by_Danube_000_27a39e317e.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Skyz_by_Danube_000_27a39e317e.webp",
+      "https://media.springfieldproperties.ae/Skyz_by_Danube_002_ca4091f83b.webp",
+      "https://media.springfieldproperties.ae/Skyz_by_Danube_012_c0eb195184.webp"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "opalz-by-danube",
+    "name": "Opalz by Danube",
+    "developer": "Danube Properties",
+    "area": "Dubai Science Park",
+    "emirate": "Dubai",
+    "types": "Apartment, Duplex",
+    "units": "Studio–3 BR apartments and duplexes",
+    "priceFrom": 525000,
+    "handover": "Q3 2025",
+    "paymentPlan": "60/40 (20% down; handover Q3 2025)",
+    "description": "Danube Properties' twin-tower development in Dubai Science Park with 575 homes across two 19-floor residential towers; listed as completed and sold out.",
+    "amenities": [
+      "Swimming pool",
+      "Spa",
+      "Open-air cinema",
+      "Jogging track"
+    ],
+    "image": "https://media.springfieldproperties.ae/Opalz_by_Danube_045_40e3cc1372.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Opalz_by_Danube_045_40e3cc1372.webp",
+      "https://media.springfieldproperties.ae/Opalz_by_Danube_005_6a3da1b0a5.webp",
+      "https://media.springfieldproperties.ae/Opalz_by_Danube_059_cad1c507d2.webp"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "burj-binghatti-jacob-co",
+    "name": "Burj Binghatti Jacob & Co Residences",
+    "developer": "Binghatti",
+    "area": "Business Bay",
+    "emirate": "Dubai",
+    "types": "Apartment, Penthouse",
+    "units": "2–7 BR villas, sky mansions and penthouses",
+    "priceFrom": 8000000,
+    "handover": "Q4 2026",
+    "paymentPlan": "70/30 (30% booking, 40% during construction, 30% on handover Q4 2026)",
+    "description": "A roughly 555-metre Business Bay skyscraper by Binghatti with Jacob & Co, holding 299 residences with one to four units per floor, each with its own private pool.",
+    "amenities": [
+      "Private pool in every unit",
+      "Luxury spa",
+      "Butler service",
+      "Private chef services"
+    ],
+    "image": "https://media.springfieldproperties.ae/Burj_Binghatti_Jacob_Co_Residences_010_b2628b619f.jpg",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Burj_Binghatti_Jacob_Co_Residences_020_scaled_e870bdc99a.jpg",
+      "https://media.springfieldproperties.ae/Burj_Binghatti_Jacob_Co_Residences_021_scaled_278ee79626.jpg",
+      "https://media.springfieldproperties.ae/Burj_Binghatti_Jacob_Co_Residences_0080_c317b8a590.jpg"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "sobha-one",
+    "name": "Sobha One",
+    "developer": "Sobha Realty",
+    "area": "Mohammed Bin Rashid City",
+    "emirate": "Dubai",
+    "types": "Apartment",
+    "units": "1–4 BR apartments and 2–4 BR duplexes",
+    "priceFrom": 1100000,
+    "handover": "Q4 2026",
+    "paymentPlan": "60/40 (20% booking, 40% during construction, 40% on handover Q4 2026)",
+    "description": "Sobha Realty's five interlinked towers of up to 65 storeys in Sobha Hartland, MBR City, with views toward Burj Khalifa and Ras Al Khor Wildlife Sanctuary.",
+    "amenities": [
+      "18-hole pitch and putt golf course",
+      "Sky garden",
+      "Swimming pool",
+      "Gym"
+    ],
+    "image": "https://media.springfieldproperties.ae/Sobha_One_11_982df7ac67.jpg",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Sobha_One_01_516e9a5434.webp",
+      "https://media.springfieldproperties.ae/Sobha_One_04_cea00900c6.webp",
+      "https://media.springfieldproperties.ae/Sobha_One_05_4957c4272e.webp"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "mercedes-benz-places",
+    "name": "Mercedes-Benz Places",
+    "developer": "Binghatti",
+    "area": "Downtown Dubai",
+    "emirate": "Dubai",
+    "types": "Penthouse",
+    "units": "2–3 BR suites and 4–7 BR penthouses",
+    "priceFrom": 8800000,
+    "handover": "Q4 2026",
+    "paymentPlan": "70/30 (20% booking, 50% during construction, 30% on handover Q4 2026)",
+    "description": "A 341-metre, 65-floor Downtown Dubai tower by Binghatti with Mercedes-Benz, containing 150 residences with 4.2 m ceilings and views of Burj Khalifa and Dubai Canal.",
+    "amenities": [
+      "Sky infinity pool",
+      "Podium pool",
+      "Spa",
+      "Gym"
+    ],
+    "image": "https://media.springfieldproperties.ae/Mercedes_Benz_Places_by_Binghatti_at_Downtown_01_8bda65f2b1.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Mercedes_Benz_Places_by_Binghatti_at_Downtown_08_67eef70889.webp",
+      "https://media.springfieldproperties.ae/Mercedes_Benz_Places_by_Binghatti_at_Downtown_01_8bda65f2b1.webp",
+      "https://media.springfieldproperties.ae/Mercedes_Benz_Places_by_Binghatti_at_Downtown_02_523ec6c601.webp"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "binghatti-phantom",
+    "name": "Binghatti Phantom",
+    "developer": "Binghatti",
+    "area": "Jumeirah Village Circle",
+    "emirate": "Dubai",
+    "types": "Apartment",
+    "units": "1–3 BR apartments",
+    "priceFrom": 999000,
+    "handover": "Q4 2025",
+    "paymentPlan": "70/30 (20% booking, 50% during construction, 30% on handover Q4 2025)",
+    "description": "A Binghatti high-rise in JVC District 17 with 354 apartments over 37 residential floors plus ground-floor retail, finished with Calacatta Oro marble, brushed brass and black glass detailing.",
+    "amenities": [
+      "Swimming pool",
+      "Padel court",
+      "Outdoor gym",
+      "Kids play area"
+    ],
+    "image": "https://media.springfieldproperties.ae/Binghatti_Phantom_070_fcd9575e36.webp",
+    "gallery": [],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "mayfair-nexus",
+    "name": "Mayfair Nexus",
+    "developer": "Mayfair",
+    "area": "Dubailand",
+    "emirate": "Dubai",
+    "types": "Apartment",
+    "units": "1–3 BR apartments",
+    "priceFrom": null,
+    "handover": "Q4 2028",
+    "paymentPlan": "70/30 (20% down, 50% during construction, 30% on handover Q4 2028)",
+    "description": "Seven Mayfair's mixed-use community of nine G+4 low-rise buildings in Dubai Lifestyle City, Dubailand, combining 434 apartments with 39 commercial units and over 87,000 sq ft of retail and dining.",
+    "amenities": [
+      "Podium pool",
+      "Golf simulator",
+      "Padel court",
+      "Spa and sauna"
+    ],
+    "image": "https://media.springfieldproperties.ae/Mayfair_Nexus_015_0474d8113f.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Mayfair_Nexus_015_0474d8113f.webp",
+      "https://media.springfieldproperties.ae/Mayfair_Nexus_007_8323754d53.webp",
+      "https://media.springfieldproperties.ae/Mayfair_Nexus_001_c0ade74630.webp"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "golf-greens",
+    "name": "Golf Greens",
+    "developer": "DAMAC",
+    "area": "DAMAC Hills",
+    "emirate": "Dubai",
+    "types": "Apartment, Townhouse",
+    "units": "1–2 BR apartments and 2–3 BR townhouses",
+    "priceFrom": 984000,
+    "handover": "2027",
+    "paymentPlan": null,
+    "description": "A DAMAC Properties development in DAMAC Hills overlooking Trump International Golf Club, offering apartments and townhouses with smart-home features; handover is scheduled for March 2027.",
+    "amenities": [
+      "Island golf in pools",
+      "Indoor golf simulator and academy",
+      "Infinity pool",
+      "Gym"
+    ],
+    "image": "https://media.springfieldproperties.ae/Golf_Greens_5_scaled_b873536ad6.jpg",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Golf_Greens_5_scaled_b873536ad6.jpg",
+      "https://media.springfieldproperties.ae/Golf_Greens_Interior_Design_Living_Room_bec8f6d6d2.png",
+      "https://media.springfieldproperties.ae/Golf_Greens_Amenities_Islands_Golf_in_Serene_Pool_scaled_f03535b554.jpg"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "ghaf-woods",
+    "name": "Ghaf Woods",
+    "developer": "Majid Al Futtaim",
+    "area": "Dubailand",
+    "emirate": "Dubai",
+    "types": "Apartment",
+    "units": "1–3 BR apartments, garden units and duplex penthouses",
+    "priceFrom": 1200000,
+    "handover": "2027",
+    "paymentPlan": "60/40 (10% down; handover 2027)",
+    "description": "Majid Al Futtaim's forest-themed community next to Global Village in Dubailand, spanning 738,000 sq m across 11 clusters, with car-free walkways and homes oriented toward wooded views.",
+    "amenities": [
+      "Central forest",
+      "Cycling track",
+      "Sports and activities park",
+      "Skate park"
+    ],
+    "image": "https://media.springfieldproperties.ae/Ghafwoods_Master_Plan_2_1d7686b416.jpg",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Ghaf_Woods_Walking_Trails_14077d463f.jpg",
+      "https://media.springfieldproperties.ae/Ghaf_Woods_Living_Within_The_Canopy_dc277b494b.jpg",
+      "https://media.springfieldproperties.ae/Ghaf_Woods_Kids_Nature_Garden_17fb44a2de.jpg"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "the-heights",
+    "name": "The Heights Country Club & Wellness",
+    "developer": "Emaar",
+    "area": "Dubailand",
+    "emirate": "Dubai",
+    "types": "Villa",
+    "units": "3–5 BR villas",
+    "priceFrom": 6000000,
+    "handover": "2030",
+    "paymentPlan": "80/20 (10% down; 80% during construction, 20% on completion; handover 2030)",
+    "description": "Emaar's 7.5 million sq m villa community in Al Yalayis, Dubailand, with three clusters (Salva, Serro, Serro 2) organised around a wellness centre and country club.",
+    "amenities": [
+      "Wellness Centre and Country Club",
+      "Private beach",
+      "Wellness lake and promenade",
+      "38 km cycling and jogging tracks"
+    ],
+    "image": "https://media.springfieldproperties.ae/THE_HEIGHTS_BROCHURE_000_bbe563a0a3.webp",
+    "gallery": [
+      "https://media.springfieldproperties.ae/THE_HEIGHTS_BROCHURE_026_69e424d160.webp",
+      "https://media.springfieldproperties.ae/THE_HEIGHTS_BROCHURE_025_8d30a119a7.webp",
+      "https://media.springfieldproperties.ae/THE_HEIGHTS_BROCHURE_023_cc5389ebe4.webp"
+    ],
+    "featured": false,
+    "show": true
+  },
+  {
+    "slug": "binghatti-hills",
+    "name": "Binghatti Hills",
+    "developer": "Binghatti",
+    "area": "Dubai Science Park",
+    "emirate": "Dubai",
+    "types": "Apartment",
+    "units": "Studio–2 BR apartments",
+    "priceFrom": 777000,
+    "handover": "Q4 2026",
+    "paymentPlan": "70/30 (20% booking, 50% during construction, 30% on handover Q4 2026)",
+    "description": "Binghatti's twin 41-floor residential towers in Dubai Science Park near Dubai Hills Mall, shaped around hillside contours, with roughly 1,666 homes plus ground-floor retail.",
+    "amenities": [
+      "Infinity pool",
+      "Padel tennis",
+      "Male and female spa",
+      "Indoor and outdoor gym"
+    ],
+    "image": "https://media.springfieldproperties.ae/Binghatti_Hills_087_d649fd0632.jpg",
+    "gallery": [
+      "https://media.springfieldproperties.ae/Binghatti_Hills_105_83d45cacaa.jpg",
+      "https://media.springfieldproperties.ae/Binghatti_Hills_087_d649fd0632.jpg",
+      "https://media.springfieldproperties.ae/Binghatti_Hills_017_fd47f80e5c.jpg"
+    ],
+    "featured": false,
+    "show": true
+  }
+]

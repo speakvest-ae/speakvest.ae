@@ -1,0 +1,34 @@
+[
+  {
+    "id": "true-cost",
+    "show": true
+  },
+  {
+    "id": "payment-plan",
+    "show": true
+  },
+  {
+    "id": "rental-yield",
+    "show": true
+  },
+  {
+    "id": "mortgage",
+    "show": true
+  },
+  {
+    "id": "offplan-roi",
+    "show": true
+  },
+  {
+    "id": "safety-check",
+    "show": true
+  },
+  {
+    "id": "golden-visa",
+    "show": true
+  },
+  {
+    "id": "investor-match",
+    "show": true
+  }
+]
