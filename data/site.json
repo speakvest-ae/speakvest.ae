@@ -3,7 +3,7 @@
   "tagline": "Not just property. A smarter perspective.",
   "bio": "Your inside look at the UAE real estate market.",
 
-  "formEndpoint": "",
+  "formEndpoint": "https://script.google.com/macros/s/AKfycbw8KXg6YkKqebMd7PskoLIUnjLKXo0d-HoVhY-dyaUOEkRvOOxstBXbNRuNij7s_d6f/exec",
   "formEndpointNote": "Paste your Google Apps Script web app URL above (ends in /exec). Later you can swap it for your CRM's webhook URL. Leave empty to test: forms still show the thank-you message.",
 
   "whatsapp": {
